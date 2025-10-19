@@ -13,6 +13,17 @@
     };
 };
 
+pwmbuzzer_backlight: pwmbuzzer {
+    compatible = "pwm-backlight";
+    pwms = <&pwm1 0 1000>;
+    brightness-levels = <0 25 50 75 100>;
+};
+
+pwmled_backlight: pwmleds {
+    compatible = "pwm-led";
+    pwms = <&pwm2 0 500>;
+};
+
 &pinctrl {
     i2c0_default: i2c0_default {
         group1 {
