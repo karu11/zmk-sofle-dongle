@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
-    - name: joaopedropio
-      url-base: https://github.com/joaopedropio
+    - name: karu11
+      url-base: https://github.com/karu11
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
@@ -25,7 +25,7 @@ manifest:
       remote: englmaxi
       revision: main
     - name: snake-module
-      remote: joaopedropio
+      remote: karu11
       revision: master
   self:
     path: config
